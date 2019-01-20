@@ -1,0 +1,15 @@
+.orderItem button {
+  color: white;
+  border: none;
+  outline: none;
+  font-size: 18px;
+  padding: 5px 15px;
+}
+
+.orderItem button.redButton {
+  background: #a52a2a;
+}
+
+.orderItem button.greyButton {
+  background: grey;
+}
