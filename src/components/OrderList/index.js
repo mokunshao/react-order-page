@@ -18,7 +18,6 @@ class OrderList extends Component {
     });
   };
   handleOnSubmit = (id, comment, stars) => {
-    console.log(id, comment, stars);
     const newData = this.state.data.map(item => {
       return id === item.id
         ? {

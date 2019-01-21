@@ -13,6 +13,7 @@ class OrderItem extends Component {
       return (
         <div>
           <textarea
+            placeholder="请输入您的评价"
             onChange={this.handleCommentChange}
             value={this.state.comment}
           />
@@ -36,7 +37,7 @@ class OrderItem extends Component {
               <span
                 className={`star ${lightStar}`}
                 key={key}
-                onClick={this.handleClickStars.bind(this, item)}
+                onClick={this.handleClickStars.bind(this,item)}
               >
                 ★
               </span>
@@ -84,28 +85,28 @@ class OrderItem extends Component {
   render() {
     return (
       <div className="orderItem">
-        <div className="picContainer">
-          <img
-            width="130"
-            height="130"
-            src={this.props.data.picture}
-            alt={this.props.data.product}
-          />
-        </div>
-        <div>
-          <div>{this.props.data.product}</div>
-          <div>{this.props.data.shop}</div>
-        </div>
-        <div>
-          <div>￥{this.props.data.price}</div>
-          <div>
+        <div className="orderMain">
+          <div className="orderInfo">
+            <img
+            width="100px"
+            height="100px"
+              src={this.props.data.picture}
+              alt={this.props.data.product}
+            />
+            <div className="orederDetail">
+              <h3>{this.props.data.product}</h3>
+              <div>{this.props.data.shop}</div>
+              <div>￥{this.props.data.price}</div>
+            </div>
+          </div>
+          <div className="rateButtons">
             {this.props.data.isCommented ? (
               <button className="greyButton" onClick={this.handleOpenEditArea}>
                 已评价
               </button>
             ) : (
               <button className="redButton" onClick={this.handleOpenEditArea}>
-                评价
+                未评价
               </button>
             )}
           </div>

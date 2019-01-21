@@ -5,7 +5,7 @@ class Header extends Component {
   render() {
     return (
       <header>
-        <h2>订单首页</h2>
+        <h3>订单首页</h3>
       </header>
     );
   }
