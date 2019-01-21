@@ -5,7 +5,9 @@
     "shop": "银记肠粉",
     "picture": "1.jpg",
     "price": 8.0,
-    "isCommented": true
+    "isCommented": true,
+    "comment": "很好吃",
+    "stars": 5
   },
   {
     "id": 2,
@@ -13,7 +15,9 @@
     "shop": "腾元生煎",
     "picture": "2.jpg",
     "price": 5.0,
-    "isCommented": false
+    "isCommented": false,
+    "comment": "",
+    "stars": 0
   },
   {
     "id": 3,
@@ -21,7 +25,9 @@
     "shop": "龙门烤鱼",
     "picture": "3.jpg",
     "price": 16.0,
-    "isCommented": false
+    "isCommented": false,
+    "comment": "",
+    "stars": 0
   },
   {
     "id": 4,
@@ -29,6 +35,8 @@
     "shop": "老湘村",
     "picture": "4.jpg",
     "price": 22.0,
-    "isCommented": false
+    "isCommented": false,
+    "comment": "",
+    "stars": 0
   }
 ]

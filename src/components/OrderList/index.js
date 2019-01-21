@@ -8,20 +8,41 @@ class OrderList extends Component {
       data: []
     };
   }
-  componentDidMount() {
-    fetch("/data.json").then(res => {
+  componentDidMount = () => {
+    fetch("data.json").then(res => {
       if (res.ok) {
         res.json().then(data => {
           this.setState({ data });
         });
       }
     });
-  }
+  };
+  handleOnSubmit = (id, comment, stars) => {
+    console.log(id, comment, stars);
+    const newData = this.state.data.map(item => {
+      return id === item.id
+        ? {
+            ...item,
+            id,
+            comment,
+            stars,
+            isCommented: true
+          }
+        : item;
+    });
+    this.setState({ data: newData });
+  };
   render() {
     return (
       <div>
         {this.state.data.map(item => {
-          return <OrderItem key={item.id} data={item} />;
+          return (
+            <OrderItem
+              key={item.id}
+              data={item}
+              onSubmit={this.handleOnSubmit}
+            />
+          );
         })}
       </div>
     );

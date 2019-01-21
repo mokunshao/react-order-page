@@ -13,3 +13,12 @@
 .orderItem button.greyButton {
   background: grey;
 }
+
+.star{
+  color: gray;
+  cursor: pointer;
+}
+
+.star.redStar{
+  color: #a52a2a;
+}

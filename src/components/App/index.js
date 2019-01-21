@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import "./style.css";
 import Header from "../Header";
-import OrderItem from "../OrderItem";
 import OrderList from "../OrderList";
 
 class App extends Component {
