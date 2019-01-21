@@ -18,7 +18,7 @@ class OrderItem extends Component {
             value={this.state.comment}
           />
           {this.renderStars()}
-          {this.state.showAlert ? <div>请输入评价并打星</div> : null}
+          {this.state.showAlert ? <div className="alert">请输入评价并打星</div> : null}
           <button className="redButton" onClick={this.handleSubmitComment}>
             提交
           </button>
@@ -96,7 +96,7 @@ class OrderItem extends Component {
             <div className="orederDetail">
               <h3>{this.props.data.product}</h3>
               <div>{this.props.data.shop}</div>
-              <div>￥{this.props.data.price}</div>
+              <div className="price">￥{this.props.data.price}</div>
             </div>
           </div>
           <div className="rateButtons">

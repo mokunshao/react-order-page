@@ -4,19 +4,19 @@ self.__precacheManifest = [
     "url": "/react-order-page/build/static/js/runtime~main.f6276248.js"
   },
   {
-    "revision": "034bf5f2e9331bf36907",
-    "url": "/react-order-page/build/static/js/main.034bf5f2.chunk.js"
+    "revision": "fcfed13fa255b82c94ff",
+    "url": "/react-order-page/build/static/js/main.fcfed13f.chunk.js"
   },
   {
     "revision": "f9be30a4556287e8d5a5",
     "url": "/react-order-page/build/static/js/1.f9be30a4.chunk.js"
   },
   {
-    "revision": "034bf5f2e9331bf36907",
-    "url": "/react-order-page/build/static/css/main.7671ca05.chunk.css"
+    "revision": "fcfed13fa255b82c94ff",
+    "url": "/react-order-page/build/static/css/main.a8b8363b.chunk.css"
   },
   {
-    "revision": "64d75c0cd5b6beb1a9f4171a0099611d",
+    "revision": "a30576a115f15dec36edec386ef6e9fc",
     "url": "/react-order-page/build/index.html"
   }
 ];

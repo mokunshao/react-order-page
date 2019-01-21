@@ -1,13 +1,13 @@
 {
-  "main.css": "/react-order-page/build/static/css/main.7671ca05.chunk.css",
-  "main.js": "/react-order-page/build/static/js/main.034bf5f2.chunk.js",
-  "main.js.map": "/react-order-page/build/static/js/main.034bf5f2.chunk.js.map",
+  "main.css": "/react-order-page/build/static/css/main.a8b8363b.chunk.css",
+  "main.js": "/react-order-page/build/static/js/main.fcfed13f.chunk.js",
+  "main.js.map": "/react-order-page/build/static/js/main.fcfed13f.chunk.js.map",
   "static/js/1.f9be30a4.chunk.js": "/react-order-page/build/static/js/1.f9be30a4.chunk.js",
   "static/js/1.f9be30a4.chunk.js.map": "/react-order-page/build/static/js/1.f9be30a4.chunk.js.map",
   "runtime~main.js": "/react-order-page/build/static/js/runtime~main.f6276248.js",
   "runtime~main.js.map": "/react-order-page/build/static/js/runtime~main.f6276248.js.map",
-  "static/css/main.7671ca05.chunk.css.map": "/react-order-page/build/static/css/main.7671ca05.chunk.css.map",
+  "static/css/main.a8b8363b.chunk.css.map": "/react-order-page/build/static/css/main.a8b8363b.chunk.css.map",
   "index.html": "/react-order-page/build/index.html",
-  "precache-manifest.60e7d7e25d5af90e06e00e765134835b.js": "/react-order-page/build/precache-manifest.60e7d7e25d5af90e06e00e765134835b.js",
+  "precache-manifest.2a4a293cef58d19a7296a80624e615e7.js": "/react-order-page/build/precache-manifest.2a4a293cef58d19a7296a80624e615e7.js",
   "service-worker.js": "/react-order-page/build/service-worker.js"
 }
